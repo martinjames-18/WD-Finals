@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/martinjames-18/">
-    <img src="./Assets/img/my_logo.jpg" alt="Portfolio Logo" width="130" height="100">
+    <img src="./assets/img/my_logo.jpg" alt="Portfolio Logo" width="130" height="100">
   </a>
 
   <h3 align="center">WD-Finals - Personal Portfolio</h3>
