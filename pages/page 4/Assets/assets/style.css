@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e0e0e0;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+main {
+    margin-top: 70px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Contact Section */
+.contact-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    background: #fff;
+}
+.contact-section .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-section .main-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+}
+
+/* Contact Grid */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contact-grid a,
+.contact-grid .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.contact-grid a i,
+.contact-grid .contact-item i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+.contact-grid a:hover,
+.contact-grid .contact-item:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* Footer */
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text p {
+    color: #ccc;
+}
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
+.social-link {
+    color: #ccc;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.social-link:hover {
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
